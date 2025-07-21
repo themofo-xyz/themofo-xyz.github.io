@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.terminal {
+    background-color: #1a1a1a;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+.prompt {
+    color: #00ff00;
+    margin-bottom: 10px;
+}
+
+.output a {
+    color: #00ff00;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+.output a:hover {
+    text-decoration: underline;
+}
